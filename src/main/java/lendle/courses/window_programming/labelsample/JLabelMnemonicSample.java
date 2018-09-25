@@ -36,7 +36,7 @@ public class JLabelMnemonicSample {
         
         //設定 label1 和 label2 的 labelfor
         label1.setLabelFor(textField);
-        label2.setLabelFor(textField);
+        label2.setLabelFor(textField1);
         //////////////////////////////////
         frame.add(label1);
         frame.add(textField);
